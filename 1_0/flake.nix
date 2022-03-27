@@ -11,6 +11,7 @@
   inputs.src-mapbits-1_0.ref   = "refs/tags/1.0";
   inputs.src-mapbits-1_0.owner = "jlp765";
   inputs.src-mapbits-1_0.repo  = "mapbits";
+  inputs.src-mapbits-1_0.dir   = "";
   inputs.src-mapbits-1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
