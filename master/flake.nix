@@ -11,7 +11,6 @@
   inputs.src-mapbits-master.ref   = "refs/heads/master";
   inputs.src-mapbits-master.owner = "jlp765";
   inputs.src-mapbits-master.repo  = "mapbits";
-  inputs.src-mapbits-master.dir   = "";
   inputs.src-mapbits-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
